@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Vladimir Núñez">
+    <meta name="description" content="Hoja de Vida">
+    <meta name="keywords" content="hoja,vida,vladimir,curriculum,nuñez">
+    <title>Hoja de Vida</title>
+    <style>
+      p {
+      font: caption;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.svg" alt="logo-curriculum" title="Logo Vladimir Nuñez" id="logo-vn">
+      <h1>Hoja de Vida</h1>
+      <h2>Vladimir Núñez Calderón</h2>
+      <h3>Nació el 13/08/1993, En San Francisco de Macoris, Rep. Dom</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article id="educacion-tabla">
+        <h2>Educación</h2>
+        <table border="1" cellspacing="0" cellpadding="10">
+          <tr align="center">
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr align="center">
+            <td>2013</td>
+            <td>INFOTEP</td>
+            <td>Santiago</td>
+            <td>Si</td>
+          </tr>
+          <tr align="center">
+            <td>2014</td>
+            <td>INFOTEP</td>
+            <td>Santiago</td>
+            <td>Si</td>
+          </tr>
+          <tr align="center">
+            <td>2016</td>
+            <td>SEAS Estudios Abiertos</td>
+            <td>Zaragoza España</td>
+            <td>Si</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <h3>Agregar Estudios</h3>
+        <form autocomplete="on" name="form-estudios" title="Formulario Para Agregar Estudios" id="form-agrestudios">
+          <label><strong>Año: </strong></label>
+            <select name="selec-years" id="select-year">
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+            </select><br>
+          <label><strong>Institución:</strong></label>
+            <input type="text" name="institucion" id="text-institucion" autofocus required/><br>
+          <label><strong>Lugar: </strong></label>
+            <textarea name="Lugar" id="text-lugar"></textarea><br>
+          <label><strong>¿Culminó? </strong></label>
+            <input type="radio" name="cul" value="Si"> Si
+            <input type="radio" name="cul" value="No"> No <br>
+          <input type="submit" name="enviar" value="Enviar"><br>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <p name="Derechos de Autor" id="derechos-autor">@Derechos Reservados</p>
+      <ul name="Datos Personal" id="datos-personales">
+        <li><strong>email: </strong><a href="mailto:vnc3xp@gmail.com?subject=feedback">vnc3xp@gmail.com</a></li>
+        <li><strong>Telefono: </strong>(849) 850-2828</li>
+        <li><strong>Dirección: </strong>La Amarga, San Francisco de Macoris 31000, Duarte, Rep. Dom.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
